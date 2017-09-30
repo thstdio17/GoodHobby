@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/halfWite">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/m_done_hobby_done_fragment_text_title_size" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView0"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon0"
+                    style="@style/DoneHobbyIcon" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon1"
+                    style="@style/DoneHobbyIcon" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon2"
+                    style="@style/DoneHobbyIcon" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView3"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon3"
+                    style="@style/DoneHobbyIcon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon4"
+                    style="@style/DoneHobbyIcon" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon5"
+                    style="@style/DoneHobbyIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon6"
+                    style="@style/DoneHobbyIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon7"
+                    style="@style/DoneHobbyIcon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView8"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon8"
+                    style="@style/DoneHobbyIcon" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView9"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon9"
+                    style="@style/DoneHobbyIcon" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    style="@style/DoneHobbyItem" />
+
+                <TextView
+                    android:id="@+id/textIcon10"
+                    style="@style/DoneHobbyIcon" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

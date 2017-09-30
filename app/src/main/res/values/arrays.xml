@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="choose_day">
+        <item>Каждый день</item>
+        <item>Раз в несколько дней </item>
+        <item>Выберите кол-во дней в неделю</item>
+        <item>Выберите дни недели</item>
+    </string-array>
+    <string-array name="day_week_brif">
+        <item>Пн</item>
+        <item>Вт</item>
+        <item>Ср</item>
+        <item>Чт</item>
+        <item>Пт</item>
+        <item>Сб</item>
+        <item>Вс</item>
+    </string-array>
+    <array name="progress_item">
+        <item>Давай хоть чуть-чуть?</item>
+        <item>Почти почти минимум</item>
+        <item>Почти минимум</item>
+        <item>План минимум</item>
+        <item>Ты можешь больше</item>
+        <item>Неплохо</item>
+        <item>Хорошо</item>
+        <item>Очень хорошо</item>
+        <item>Молодец</item>
+        <item>Превосходно</item>
+        <item>Супер</item>
+    </array>
+
+    <string-array name="mounth">
+        <item>                  </item>
+        <item>Января</item>
+        <item>Февраля</item>
+        <item>Марта</item>
+        <item>Апреля</item>
+        <item>Мая</item>
+        <item>Июня</item>
+        <item>Июля</item>
+        <item>Августа</item>
+        <item>Сентебря</item>
+        <item>Октября</item>
+        <item>Ноября</item>
+        <item>Декабря</item>
+    </string-array>
+    <string-array name="weekdays">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+    <string-array name="next_day">
+        <item>Сегодня</item>
+        <item>Завтра</item>
+        <item>Послезавтра</item>
+        <item>Через 3 дня</item>
+        <item>Через 4 дня</item>
+        <item>Через 5 дней</item>
+        <item>Через 6 дней</item>
+        <item>Через неделю</item>
+    </string-array>
+    <string-array name="shelder_day" >
+    <item>Каждый день</item>
+    <item>Раз в несколько дней</item>
+    <item>Кол-во дней в неделю</item>
+    <item>Выбранные дни недели</item>
+    </string-array>
+</resources>

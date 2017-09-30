@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="done_text_progress_interval">3dp</dimen>
+    <dimen name="done_progress_card_margin">15dp</dimen>
+    <dimen name="done_text_progress_interval_left">30dp</dimen>
+    <dimen name="text_title">25sp</dimen>
+
+    <dimen name="text_done_progress">18sp</dimen>
+
+    <dimen name="progress_item_right">15dp</dimen>
+    <dimen name="cardview_margingRight">5dp</dimen>
+    <dimen name="cardview_margingLeft">5dp</dimen>
+    <dimen name="cardview_margingTop">15dp</dimen>
+    <dimen name="progress_item_left">25dp</dimen>
+    <item name="datapiker_size" type="dimen" format="float">1.0</item>
+</resources>

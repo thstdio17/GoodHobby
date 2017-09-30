@@ -1,0 +1,98 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"></style>
+
+    <style name="DoneHobbyItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/margingLR30</item>
+        <item name="android:layout_marginTop">
+            @dimen/m_done_hobby_done_fragment_text_item_style_padding
+        </item>
+        <item name="android:padding">@dimen/m_done_hobby_done_fragment_text_item_style_padding
+        </item>
+        <item name="android:paddingLeft">
+            @dimen/m_done_hobby_done_fragment_text_item_style_padding_left
+        </item>
+        <item name="android:textSize">@dimen/m_done_hobby_done_fragment_text_item_style_text_size
+        </item>
+        <item name="android:background">@color/halfWite</item>
+        <item name="android:layout_weight">9</item>
+    </style>
+
+    <style name="DoneHobbyIcon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/margingLR30</item>
+        <item name="android:layout_marginTop">
+            @dimen/m_done_hobby_done_fragment_text_item_style_padding
+        </item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@color/halfWite</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ProgressHobbyLableItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/progress_item_right</item>
+        <item name="android:textColor">@color/blue700</item>
+        <item name="android:textSize">@dimen/text_done_progress</item>
+
+    </style>
+
+    <style name="ProgressHobbytem" parent="ProgressHobbyLableItem">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:layout_marginLeft">@dimen/progress_item_left</item>
+        <item name="android:textColor">@color/textTitle</item>
+
+    </style>
+
+    <style name="CardViewLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">@dimen/cardview_margingRight</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_margingLeft</item>
+        <item name="android:layout_marginTop">@dimen/cardview_margingTop</item>
+        <item name="android:elevation">5dp</item>
+    </style>
+
+    <style name="AddHobbyDaysTxt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/White</item>
+        <item name="android:textSize">@dimen/m_add_hobby_day_text_size</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TransAlertDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/halfWite</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:width">300dip</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+</resources>

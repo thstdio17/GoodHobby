@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#616161</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#ff5722</color>
+
+    <color name="bg">#ece9e9</color>
+    <color name="bgItem">#eaf7e8</color>
+    <color name="bgStartItem">#ffffff</color>
+    <color name="bgDoneItem">#d6e0d4</color>
+    <color name="bgSeparatorItem">#fff3e0</color>
+
+    <color name="textTitle">#022f44</color>
+    <color name="textCount">#416479</color>
+    <color name="dayNextActivity">#022f44</color>
+    <color name="textData">#8fabc4</color>
+    <color name="halfWite">#96ffffff</color>
+
+    <color name="btnSave">#ffeb3b</color>
+    <color name="btnFinish">#64dd17</color>
+    <color name="btnDelete">#ab4e50</color>
+
+    <color name="red200">#ff5252</color>
+    <color name="yellow200">#fff59d</color>
+    <color name="green200">#b2ff59</color>
+    <color name="green700">#64dd17</color>
+    <color name="blue700">#2962ff</color>
+    <color name="White">#ffffff</color>
+    <color name="icons">#9fa8da</color>
+
+
+
+</resources>

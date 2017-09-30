@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marging5">5dp</dimen>
+    <dimen name="margingBotom20">20dp</dimen>
+    <dimen name="margingLR10">10dp</dimen>
+    <dimen name="margingLR30">30dp</dimen>
+    <dimen name="margingLR50">50dp</dimen>
+
+</resources>

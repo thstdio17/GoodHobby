@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:weightSum="20">
+
+        <TextView
+            android:id="@+id/editTextTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margingLR10"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/m_done_hobby_info_title_test_size"
+            android:textStyle="bold"
+            tools:text="Title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textViewProgresRezult"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margingLR10"
+                    android:textColor="@color/textCount"
+                    android:textSize="@dimen/m_done_hobby_info_title_test_size" />
+
+                <TextView
+                    android:id="@+id/textViewNext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margingLR10"
+                    android:textColor="@color/dayNextActivity"
+                    android:textSize="@dimen/m_done_hobby_info_title_test_size" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imageIcon"
+                android:layout_width="@dimen/m_add_hobby_icon_size"
+                android:layout_height="@dimen/m_add_hobby_icon_size"
+                android:layout_marginTop="@dimen/margingBotom20"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/icon0_target" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/editTextDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top"
+            android:text="@string/description"
+            android:textAlignment="gravity"
+            android:textColor="@color/textTitle"
+            android:textSize="@dimen/m_done_hobby_info_description_text_size"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ProgressHobbyLableItem"
+                    android:text="@string/done_progress_start" />
+
+                <TextView
+                    android:id="@+id/textViewStart"
+                    style="@style/ProgressHobbytem" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ProgressHobbyLableItem"
+                    android:text="@string/done_progress_continion" />
+
+                <TextView
+                    android:id="@+id/textViewContinion"
+                    style="@style/ProgressHobbytem" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/ProgressHobbyLableItem"
+                    android:text="@string/done_progress_predict" />
+
+                <TextView
+                    android:id="@+id/textViewPredict"
+                    style="@style/ProgressHobbytem" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margingLR10"
+            android:layout_marginTop="@dimen/margingLR10"
+            android:text="@string/done_progress_sheduler"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margingBotom20"
+            android:layout_marginLeft="@dimen/margingLR30"
+            android:layout_marginRight="@dimen/margingLR30"
+            android:textSize="@dimen/m_done_hobby_info_description_text_size"
+            android:textStyle="bold"
+
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="7">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays0"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays0"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_monday_brif" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays1"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays1"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_tuesday_brif" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays2"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays2"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_wednesday_brif" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays3"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays3"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_thursday_brif" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays4"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays4"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_friday_brif" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays5"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays5"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_saturday_brif" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/imageDays6"
+                    style="@style/AddHobbyDaysTxt"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/circle" />
+
+                <TextView
+                    android:id="@+id/textDays6"
+                    style="@style/AddHobbyDaysTxt"
+                    android:text="@string/week_suday_brif" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margingBotom20"
+            android:layout_weight="15" />
+
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btnSave"
+            android:text="@string/action_change"
+            android:textColor="@color/textTitle" />
+
+        <Button
+            android:id="@+id/buttonFinish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/btnFinish"
+            android:text="@string/action_finish"
+            android:textColor="@color/textTitle" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margingBotom20"
+            android:layout_marginTop="@dimen/margingLR50"
+            android:layout_weight="15" />
+    </LinearLayout>
+
+
+</ScrollView>

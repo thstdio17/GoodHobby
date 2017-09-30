@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                 android:hint="@string/add_hobby_title_hint"
+                android:inputType="textPersonName" />
+
+            <ImageView
+                android:id="@+id/imageIcon"
+                style="@style/Base.Widget.AppCompat.Spinner"
+                android:layout_width="@dimen/m_add_hobby_icon_size"
+                android:layout_height="@dimen/m_add_hobby_icon_size"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/icon0_target" />
+
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                 android:gravity="top"
+                android:hint="@string/add_hobby_descripton_hint"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:textAlignment="gravity"
+                android:visibility="gone" />
+
+            <TextView
+                style="?android:listSeparatorTextViewStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:layout_marginTop="@dimen/margingLR10"
+                android:text="@string/done_progress_sheduler"
+                android:textAlignment="textStart" />
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margingBotom20"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:entries="@array/choose_day"
+                android:spinnerMode="dialog"
+                android:textAlignment="textStart" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="7">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margingLR10"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays0"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays0"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_monday_brif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays1"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays1"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_tuesday_brif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays2"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays2"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_wednesday_brif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays3"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays3"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_thursday_brif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays4"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays4"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_friday_brif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays5"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays5"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_saturday_brif" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="15dp"
+                    android:layout_weight="1">
+
+
+                    <ImageView
+                        android:id="@+id/imageDays6"
+                        style="@style/AddHobbyDaysTxt"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/circle" />
+
+                    <TextView
+                        android:id="@+id/textDays6"
+                        style="@style/AddHobbyDaysTxt"
+                        android:text="@string/week_suday_brif" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/switchOld"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|right"
+                android:layout_marginTop="@dimen/margingLR50"
+                android:layout_weight="80"
+                android:checked="false"
+                android:text="@string/add_hobby_is_hobby_old" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutNotNull"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margingLR10"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/textViewData"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/buttonDateOld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_hobby_input_data" />
+
+                <EditText
+                    android:id="@+id/editTextCountOld"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:hint="@string/add_hobby_input_old_count"
+                    android:inputType="number" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <ScrollView
+        android:id="@+id/scrollImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:paddingTop="@dimen/margingBotom20"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margingBotom20"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageIcon0"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon1"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon2"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margingBotom20"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageIcon3"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon4"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon5"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/margingBotom20"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageIcon9"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon10"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon11"
+                    android:layout_width="@dimen/m_add_hobby_icon_size"
+                    android:layout_height="@dimen/m_add_hobby_icon_size"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageIcon6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon7"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:id="@+id/imageIcon8"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/scrollDataPicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/White"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:calendarViewShown="false"
+            android:layout_marginBottom="@dimen/margingBotom20"
+            />
+
+        <Button
+            android:id="@+id/buttonDataOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:background="@android:color/transparent"
+            android:text="Ok"
+            android:textColor="@color/colorAccent" />
+    </RelativeLayout>
+
+</RelativeLayout>

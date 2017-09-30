@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/marging5"
+    android:background="@color/White"
+    android:elevation="5dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:textAlignment="textStart"
+                android:textColor="@color/textTitle"
+                android:textSize="@dimen/m_main_activity_text_title_size" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:textAlignment="textStart"
+                android:textColor="@color/textData" />
+
+            <TextView
+                android:id="@+id/textViewWhen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:textAlignment="textStart"
+
+                android:textColor="@color/dayNextActivity"
+                android:textSize="@dimen/m_main_activity_text_when_size" />
+
+            <TextView
+                android:id="@+id/textViewCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margingLR10"
+                android:textAlignment="textStart"
+
+                android:textColor="@color/textCount"
+                android:textSize="@dimen/m_main_activity_text_count_size" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/m_main_activity_icon_size"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:layout_marginRight="@dimen/cardview_margingRight"
+            android:layout_weight="5"
+            app:srcCompat="@drawable/icon1_book" />
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margingLR10"
+        android:layout_marginRight="@dimen/margingLR50"
+        android:progress="30" />
+
+
+</LinearLayout>

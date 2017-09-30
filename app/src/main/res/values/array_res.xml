@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icon_res">
+        <item>@drawable/icon0_target</item>
+        <item>@drawable/icon1_book</item>
+        <item>@drawable/icon2_run</item>
+        <item>@drawable/icon3_fitnes</item>
+        <item>@drawable/icon4_food</item>
+        <item>@drawable/icon5_coldwater</item>
+        <item>@drawable/icon6_water</item>
+        <item>@drawable/icon7_clean</item>
+        <item>@drawable/icon8_education</item>
+        <item>@drawable/icon9_moon</item>
+        <item>@drawable/icon10_sunrise</item>
+        <item>@drawable/icon11_tv</item>
+        </array>
+</resources>
